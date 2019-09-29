@@ -4,6 +4,7 @@ main(){
     int question;
 
     inicio:
+	system("cls");
     printf("[1] Primeira Questao\n");
     printf("[2] Segunda Questao\n");
     printf("[3] Terceira Questao\n");
@@ -13,7 +14,7 @@ main(){
     printf("[7] Setima Questao\n");
     printf("[8] Oitava Questao\n");
 
-    printf("Escolha uma questao para executar");
+    printf("Escolha uma questao para executar: ");
     scanf("%d", &question); 
 
     //VARIAVEIS
@@ -84,6 +85,7 @@ main(){
 
     question2:
 
+	system("cls");
     printf("Digite o primeiro numero\n");
     scanf("%d", &st_number);
     printf("Digite o segundo numero\n");
@@ -108,6 +110,7 @@ main(){
 
     question3:
 
+	system("cls");
     printf("Enter the first number\n");
     scanf("%d", &st_number);
     printf("Enter the second number\n");
@@ -128,6 +131,7 @@ main(){
 
     question4:
 
+	system("cls");
     printf("Enter the first number\n");
     scanf("%d", &st_number);
     printf("Enter the second number\n");
@@ -136,7 +140,7 @@ main(){
     //show the first number multiplied by 3
     printf("First result: %d\n", st_number*3);
     //show the second number multiplied by 4
-    printf("Second result: %d", nd_number*4);
+    printf("Second result: %d\n", nd_number*4);
     system ("pause");
     goto inicio;
 
@@ -144,15 +148,17 @@ main(){
 
     question5:
 
+	system("cls");
     printf("Insert a number\n");
     scanf("%d", &number);
 
     if (number >= 0) {
         printf("The number is positive\n");
+        system ("pause");
     }
     else {
         printf("The number is negative\n");
-    system ("pause");
+        system ("pause");
     }
     goto inicio;
 
@@ -160,6 +166,7 @@ main(){
 
     question6:
 
+	system("cls");
     printf("Insert a number\n");
     scanf("%d", &number);
 
@@ -180,6 +187,7 @@ main(){
 
     question7:
 
+	system("cls");
     printf("Insert the first value\n");
     scanf("%f", &st_grade);
     printf("Insert the second value\n");
@@ -202,16 +210,17 @@ main(){
 
     question8:
 
+	system("cls");
     printf("Insert the first value\n");
     scanf("%d", &st_number);
     printf("Insert the second value\n");
     scanf("%d", &nd_number);
 
     if (st_number >= nd_number){
-        printf("%d - %d", st_number,nd_number);
+        printf("%d - %d\n", st_number,nd_number);
     }
     else{
-        printf("%d - %d", nd_number,st_number);
+        printf("%d - %d\n", nd_number,st_number);
     }
     system ("pause");
     goto inicio;
