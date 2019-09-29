@@ -16,6 +16,13 @@ main(){
     printf("Escolha uma questao para executar");
     scanf("%d", &question); 
 
+    //VARIAVEIS
+
+    int number, st_number, nd_number, rd_number, modulus_test;
+    float st_grade, nd_grade, rd_grade, average;
+
+    //FIM VARIAVEIS
+
     switch (question)
     {
     case 1:
@@ -51,7 +58,6 @@ main(){
     // PRIMEIRA QUESTAO
 
     question1:
-    int st_number, nd_number;
 
     printf("Digite o primeiro numero\n");
     scanf("%d", &st_number);
@@ -76,7 +82,6 @@ main(){
     //SEGUNDA QUESTAO
 
     question2:
-    int st_number, nd_number;
 
     printf("Digite o primeiro numero\n");
     scanf("%d", &st_number);
@@ -101,7 +106,6 @@ main(){
     //TERCEIRA QUESTAO
 
     question3:
-    int st_number, nd_number, modulus_test;
 
     printf("Enter the first number\n");
     scanf("%d", &st_number);
@@ -122,7 +126,6 @@ main(){
     //QUARTA QUESTAO
 
     question4:
-    int st_number, nd_number;
 
     printf("Enter the first number\n");
     scanf("%d", &st_number);
@@ -139,7 +142,6 @@ main(){
     //QUINTA QUESTAO
 
     question5:
-    nt number;
 
     printf("Insert a number\n");
     scanf("%d", &number);
@@ -156,7 +158,6 @@ main(){
     //SEXTA QUESTAO
 
     question6:
-    int number;
 
     printf("Insert a number\n");
     scanf("%d", &number);
@@ -177,7 +178,6 @@ main(){
     //SETIMA QUESTAO
 
     question7:
-    float st_grade, nd_grade, rd_grade, average;
 
     printf("Insert the first value\n");
     scanf("%f", &st_grade);
@@ -200,7 +200,6 @@ main(){
     //OITAVA QUESTAO
 
     question8:
-    int st_number, nd_number;
 
     printf("Insert the first value\n");
     scanf("%d", &st_number);
