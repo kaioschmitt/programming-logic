@@ -59,6 +59,7 @@ main(){
 
     question1:
 
+    system("cls");
     printf("Digite o primeiro numero\n");
     scanf("%d", &st_number);
     printf("Digite o segundo numero\n");
@@ -150,7 +151,7 @@ main(){
         printf("The number is positive\n");
     }
     else {
-        printf("The number is negative");
+        printf("The number is negative\n");
     system ("pause");
     }
     goto inicio;
@@ -170,7 +171,7 @@ main(){
             printf("The number is less than 10\n");
         }
         else{
-            printf("The number is equal to 10");
+            printf("The number is equal to 10\n");
         }
     system ("pause");
     goto inicio;
@@ -189,10 +190,10 @@ main(){
     average = (st_grade + nd_grade + rd_grade)/3;
 
     if (average >= 7){
-        printf("Approved");
+        printf("Approved\n");
     }
     else{
-        printf("Failed");
+        printf("Failed\n");
     }
     system ("pause");
     goto inicio;
