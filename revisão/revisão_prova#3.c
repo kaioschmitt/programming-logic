@@ -21,20 +21,18 @@ main (){
         case 1:
             printf("Insert the height: ");
             scanf("%f", &m_height);
-            if (m_height > hi_height)
-            {
+            if (m_height > hi_height){
                 hi_height = m_height;
             }
-            qtd_ppl++;
             qtd_men++;
             avr_class = avr_class + m_height;
+            qtd_ppl++;
             avr_male = avr_male + m_height;
             break;
         case 2:
             printf("Insert the height: ");
             scanf("%f", &f_height);
-            if (m_height > hi_height)
-            {
+            if (m_height > hi_height){
                 hi_height = m_height;
             }
             qtd_ppl++;
